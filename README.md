@@ -24,3 +24,4 @@ I want to know if a new port is opened up for the assets I'm watching... Port ca
 - Not tested with large amount of assets
 - Be mindful of how long the scans will take when you edit the cron configuration (highly recommend using crontab.guru site and looking at examples)
 - If you're using webhook for notification and there is a rate limit, you may just wanna change the code and add time.sleep(1) or something...
+- for now, config files are included in the container image so be sure to delete the old container if you modify the configuration files
