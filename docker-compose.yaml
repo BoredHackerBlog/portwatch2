@@ -4,3 +4,5 @@ services:
     portwatch2:
         build: .
         image: portwatch2
+        volumes:
+            - ./:/app
